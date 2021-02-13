@@ -1,1 +1,1 @@
-# MajorAuto
+<link>https://aslussion.github.io/MajorAuto/3-vue/index.html</link>
