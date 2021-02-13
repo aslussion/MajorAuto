@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang='ru'>
+	<head>
+		<meta charset="utf-8">
+		<title>t</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/swiper-thumbs.css">
+		
+		<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+		<link rel="stylesheet/less" type="text/css" href="css/style.less">
+		<script src="js/less-1.7.3.min.js"></script>
+		
+		<script src="js/swiper.min.js"></script>
+		<script src="js/j.js"></script>
+
+	</head>
+	<body>
+		<header class='header'>
+			<div class='header__top s-hidden'>
+				<div class='container row'>
+					<nav class='row__col menu'>
+						<a href='' class='menu__item'>О компании</a><!--menu-top__item_active - класс для активного пункта-->
+						<a href='' class='menu__item'>Доставка</a>
+						<a href='' class='menu__item'>Контакты</a>
+					</nav>
+					<div class='row__col'>
+						<div class='row'>
+							<div class='row__col'><a href='tel:+79999996666' class='link-phone'>+7 (999) 999-66-66</a></div>
+							<div class='row__col'>Рабочие дни - 9:00 - 20:00, Выходные - 10:00 - 20:00.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='container row header__main'>
+				<div class='row__col'>
+					<div class='row'>
+						<div class='row__col l-hidden'>
+							<span class="j-burger hamburger hamburger_htx"><span></span></span>
+						</div>
+						<div class='row__col row__col_no-margin-l'><a href='/' class='logo'></a></div>
+					</div>
+				</div>
+				<div class='row__col header__search s-hidden'>
+					<form class='form header-search' method="GET" action=''>
+						<input type='text' name='text' placeholder='Поиск по товарам' class='input header-search__input'>
+					</form>
+				</div>
+				<div class='row__col sm-block'>
+					<a href='tel:+79999996666' class='link-phone'>+7 (999) 999-66-66</a><br>
+					Рабочие дни - 9:00 - 20:00<br> 
+					Выходные - 10:00 - 20:00.
+				</div>
+				<div class='row__col'>
+					<a href='' class='button button_small header-cart'>
+						<svg class='header-cart__icon' xmlns="http://www.w3.org/2000/svg" width="15.53" height="15.53" viewBox="0 0 15.53 15.53"><defs></defs><path class="svg-a" d="M4.659,12.424a1.553,1.553,0,1,0,1.553,1.553A1.558,1.558,0,0,0,4.659,12.424ZM0,0V1.553H1.553l2.8,5.9L3.261,9.318a2.759,2.759,0,0,0-.155.776,1.558,1.558,0,0,0,1.553,1.553h9.318V10.094H4.969a.167.167,0,0,1-.155-.155V9.861l.7-1.32h5.746a1.416,1.416,0,0,0,1.32-.776l2.8-5.047a.427.427,0,0,0,.155-.388.734.734,0,0,0-.776-.776H3.261L2.562,0ZM12.424,12.424a1.553,1.553,0,1,0,1.553,1.553A1.558,1.558,0,0,0,12.424,12.424Z"/></svg>
+						<span class='header-cart__cnt'>1</span>
+					</a>
+					<a href='' class='button button_small'>Войти</a>
+				</div>
+			</div>
+		</header>
+		<div class='container'>
+			<div class='menu-base row s-hidden'>
+				<nav class='menu menu_big-margin'>
+					<a href='' class='menu__item'>Пункт 1</a>
+					<a href='' class='menu__item'>Пункт 2</a>
+					<a href='' class='menu__item'>Пункт 3</a>
+					<a href='' class='menu__item'>Пункт 1</a>
+					<a href='' class='menu__item'>Пункт 2</a>
+					<a href='' class='menu__item'>Пункт 3</a>
+				</nav>
+				<div>
+					<a href='' class='favourite'>
+						<svg class='favourite__icon' xmlns="http://www.w3.org/2000/svg" width="15.482" height="13.668" viewBox="0 0 15.482 13.668"><defs></defs><path class="svg-a favourite__icon-body" d="M11.37,30a3.666,3.666,0,0,0-2.289.791A5.215,5.215,0,0,0,7.741,32.4,5.215,5.215,0,0,0,6.4,30.791,3.666,3.666,0,0,0,4.112,30,4.2,4.2,0,0,0,0,34.461c0,2.747,2.206,4.627,5.545,7.473.567.483,1.21,1.031,1.878,1.615a.484.484,0,0,0,.637,0c.668-.584,1.311-1.132,1.878-1.616,3.339-2.845,5.545-4.725,5.545-7.472A4.2,4.2,0,0,0,11.37,30Z" transform="translate(0 -30)"/></svg>
+					Избранное (12)</a>
+				</div>
+			</div>
+			<div class='breadcrumbs'>
+				<span class='breadcrumbs__item'><a href='' class='breadcrumbs__link'>Главная</a></span>
+				<span class='breadcrumbs__item'><a href='' class='breadcrumbs__link'>Каталог</a></span>
+				<span class='breadcrumbs__item'>Volvo S60</span>
+			</div>
+			<main class='row-main product'>
+				<div class='row-main__col row-main__col_left'>
+					<div class='slider'>
+						<div class='labels'>
+							<span class='labels__item'>В поставке</span>
+							<span class='labels__item'>С ПТС</span>
+						</div>
+						<div class="swiper-container gallery-top">
+						    <div class="swiper-wrapper">
+						      <div class="swiper-slide"><img alt='' src='img/volvo.jpg'></div>
+						      <div class="swiper-slide"><img alt='' src='img/volvo2.jpg'></div>
+						      <div class="swiper-slide"><img alt='' src='img/volvo3.jpg'></div>
+						      <div class="swiper-slide"><img alt='' src='img/volvo4.jpg'></div>
+						    </div>
+						    <div class="swiper-button swiper-button-next"></div>
+						    <div class="swiper-button swiper-button-prev"></div>
+						</div>
+						<div class="swiper-container gallery-thumbs">
+						    <div class="swiper-wrapper">
+						      <div class="swiper-slide" ><img alt='' src='img/volvo.jpg'></div>
+						      <div class="swiper-slide" ><img alt='' src='img/volvo2.jpg'></div>
+						      <div class="swiper-slide" ><img alt='' src='img/volvo3.jpg'></div>
+						      <div class="swiper-slide" ><img alt='' src='img/volvo4.jpg'></div>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class='row-main__col row-main__col_right'>
+					<div class='product__main'>
+						<div class='product__names'>
+							<h1 class='product__name'>Volvo S60</h1>
+							<div class='product__description'>Создан для вождения</div>
+						</div>
+						<div class='star'>4.2</div>
+					</div>
+					<div class='product__buying'>
+						<div class='product__prices'>
+							2 730 000 руб.
+							<div class='product-price'><span class='product-price__price'>2 530 000</span> руб.</div>
+							Цена за 1 авто
+						</div>
+						<div>
+							<!--<div class='button product__buy'>Купить</div>-->
+							<div class='counter'>
+								<div class='counter__btn counter__btn_m'></div>
+								<span class='counter__input'>1 шт</span>
+								<div class='counter__btn counter__btn_p'></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='row-main__col row-main__col_bottom'>
+					<p class='product-char p_margin-small'>
+						<span class='product-char__name'>Основные характеристики:</span>
+						2л (190 л.с.), Бензиновый, АКПП, <br>Передний привод, 2020г.
+					</p>
+					<p class='question'>
+						Подробности в отделах продаж автосалонов по телефонам:<br class='xs-block'>
+						<a href='tel:+79999996666'>+7 (999) 999-66-66</a>
+					</p>
+					<p class='product-char'>
+						<span class='product-char__name'>Стандартное оснащение:</span>
+						Кожа(лицевая часть) Коричневого цвета в черном интерьере / Отделка салона Iron Ore (Mom), Linear Lime (Insc), 3-хспицевое рулевое колесо, отделанное кожей с декоративными вставками
+					</p>
+					<div class='product-params'>
+						<p class='product-char product-params__item'>
+							<span class='product-char__name product-char__name_blocked'>190</span>
+							Мощность, л.с.
+						</p>
+						<p class='product-char product-params__item'>
+							<span class='product-char__name product-char__name_blocked'>2</span>
+							Объем двигателя, л
+						</p>
+						<p class='product-char product-params__item'>
+							<span class='product-char__name product-char__name_blocked'>АКПП</span>
+							Тип КПП
+						</p>
+						<p class='product-char product-params__item'>
+							<span class='product-char__name product-char__name_blocked'>Седан</span>
+							Тип кузова
+						</p>
+					</div>
+					<p class='product-numbers'>
+						<span class='product-numbers__item'>Номер заказа: 211020-VM02</span>
+						<span class='product-numbers__item'>Производитель: <a href=''>VOLVO</a></span>
+					</p>
+				</div>
+			</main>
+
+		</div>
+	</body>
+</html>
+
+				
