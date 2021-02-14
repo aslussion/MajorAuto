@@ -1,1 +1,1 @@
-<link>https://aslussion.github.io/MajorAuto/3-vue/index.html</link>
+<a href='https://aslussion.github.io/MajorAuto/3-vue/index.html'>Ссылка</a>
